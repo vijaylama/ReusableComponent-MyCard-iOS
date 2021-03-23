@@ -15,6 +15,12 @@
 		C7F035EC260A8B2500770065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F035EA260A8B2500770065 /* LaunchScreen.storyboard */; };
 		C7F035F7260A8B2500770065 /* MyCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F035F6260A8B2500770065 /* MyCardTests.swift */; };
 		C7F03602260A8B2500770065 /* MyCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F03601260A8B2500770065 /* MyCardUITests.swift */; };
+		C7F03614260A8D3B00770065 /* SyneMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7F03613260A8D3B00770065 /* SyneMono-Regular.ttf */; };
+		C7F03615260A8D3B00770065 /* SyneMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7F03613260A8D3B00770065 /* SyneMono-Regular.ttf */; };
+		C7F03616260A8D3B00770065 /* SyneMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7F03613260A8D3B00770065 /* SyneMono-Regular.ttf */; };
+		C7F03636260A997300770065 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F03635260A997300770065 /* InfoView.swift */; };
+		C7F03637260A997300770065 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F03635260A997300770065 /* InfoView.swift */; };
+		C7F03638260A997300770065 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F03635260A997300770065 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		C7F035FD260A8B2500770065 /* MyCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F03601260A8B2500770065 /* MyCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardUITests.swift; sourceTree = "<group>"; };
 		C7F03603260A8B2500770065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F03613260A8D3B00770065 /* SyneMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SyneMono-Regular.ttf"; path = "../../../../../Downloads/Syne_Mono/SyneMono-Regular.ttf"; sourceTree = "<group>"; };
+		C7F03635260A997300770065 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		C7F035DE260A8B2300770065 /* MyCard */ = {
 			isa = PBXGroup;
 			children = (
+				C7F03612260A8D1B00770065 /* fonts */,
 				C7F035DF260A8B2300770065 /* AppDelegate.swift */,
 				C7F035E1260A8B2300770065 /* SceneDelegate.swift */,
 				C7F035E3260A8B2300770065 /* ContentView.swift */,
@@ -106,6 +115,7 @@
 				C7F035EA260A8B2500770065 /* LaunchScreen.storyboard */,
 				C7F035ED260A8B2500770065 /* Info.plist */,
 				C7F035E7260A8B2500770065 /* Preview Content */,
+				C7F03635260A997300770065 /* InfoView.swift */,
 			);
 			path = MyCard;
 			sourceTree = "<group>";
@@ -134,6 +144,14 @@
 				C7F03603260A8B2500770065 /* Info.plist */,
 			);
 			path = MyCardUITests;
+			sourceTree = "<group>";
+		};
+		C7F03612260A8D1B00770065 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C7F03613260A8D3B00770065 /* SyneMono-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +260,7 @@
 				C7F035EC260A8B2500770065 /* LaunchScreen.storyboard in Resources */,
 				C7F035E9260A8B2500770065 /* Preview Assets.xcassets in Resources */,
 				C7F035E6260A8B2500770065 /* Assets.xcassets in Resources */,
+				C7F03614260A8D3B00770065 /* SyneMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F03615260A8D3B00770065 /* SyneMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F03616260A8D3B00770065 /* SyneMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F03636260A997300770065 /* InfoView.swift in Sources */,
 				C7F035E0260A8B2300770065 /* AppDelegate.swift in Sources */,
 				C7F035E2260A8B2300770065 /* SceneDelegate.swift in Sources */,
 				C7F035E4260A8B2300770065 /* ContentView.swift in Sources */,
@@ -276,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F03637260A997300770065 /* InfoView.swift in Sources */,
 				C7F035F7260A8B2500770065 /* MyCardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F03638260A997300770065 /* InfoView.swift in Sources */,
 				C7F03602260A8B2500770065 /* MyCardUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
